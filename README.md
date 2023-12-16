@@ -20,7 +20,7 @@ Welcome to the  LAMBDA-BOT (λ) repository! This bot is designed to provide vari
 1. Clone this repository to your local machine.
 
     ```bash
-    git clone https://github.com/HARAJIT05/RED-LAMBDA.git
+    git clone https://github.com/HARAJIT05/LAMBDA.git
     ```
 
 2. Install the required Python packages.
