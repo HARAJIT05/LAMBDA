@@ -33,7 +33,7 @@ Welcome to the  LAMBDA-BOT (λ) repository! This bot is designed to provide vari
 
 4. Replace the placeholder token in the code (`TOKEN = 'YOUR_BOT_TOKEN'`) with the token obtained from BotFather.
 
-5. Replace other placeholder values, such as `OWNER_USER_ID`, `OPENWEATHERMAP_API_KEY`, with your own values.
+5. Replace other placeholder values, such as `OWNER_USER_ID`, `OPENWEATHERMAP_API_KEY`, with your own values in config.py.
 
 6. Run the bot.
 
