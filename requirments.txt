@@ -1,0 +1,9 @@
+telebot==3.8.1
+googlesearch-python==1.0.1
+platform
+requests
+qrcode[pil]
+beautifulsoup4
+speedtest-cli
+Pillow
+wikipedia-api
