@@ -1,5 +1,8 @@
 # 🤖LAMBDA-BOT (λ)
-
+<!-- Centered Gif -->
+<div align="center">
+  <img src="λ.gif" alt="Lambda Bot in action">
+</div>
 Welcome to the  LAMBDA-BOT (λ) repository! This bot is designed to provide various functionalities, including Google search, weather information, Wikipedia search and more. Below, you'll find information on how to use the bot and set it up for your own use.
 
 ## Getting Started
