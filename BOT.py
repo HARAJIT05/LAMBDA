@@ -63,7 +63,7 @@ def log_user_interaction(message):
 def send_gif(message):
     user_name = message.from_user.first_name
     gif = open(os.path.abspath(GIF_FILE_PATH), 'rb')
-    caption = f"Hello {user_name}! Use /help to see available commands"
+    caption = f"Hello {user_name} to λ BOT! Use /help to see available commands"
     bot.send_animation(message.chat.id, gif, caption=caption)
 
 
@@ -81,19 +81,20 @@ def handle_ping(message):
 def handle_help(message):
     gif = open(os.path.abspath(HELP), 'rb')
     help_text = (
-        "Available commands:\n"
-        "/ping - Check if the bot is responsive\n"
-        "/help - Display this help message\n"
-        "/systeminfo - Show system information\n"
-        "/generateqr <text> - Generate QR code from text\n"
-        "/weather <city> - Get current weather information for a city\n"
-        "/wikipedia <query> - Search Wikipedia for information\n"
-        "/speedtest - Perform a speedtest\n"
-        "/google <query> - Perform a Google search\n"
-        "/meme - Get a random meme\n"
-        "/anime <anime_name> - Get information about an anime"
-        "/imdb <movie_title> - Get information about a movie from IMDb"
-    )
+        "Welcome to the world of λ (LAMBDA-BOT) commands! 🤖\n"
+        "Explore the commands available in λ with these exciting options: 💬\n"
+        "/ping - Check if the bot is responsive 🏓\n"
+        "/help - Display this interactive help message ℹ️\n"
+        "/systeminfo - Peek into system information 💻\n"
+        "/generateqr <text> - Craft a QR code from your text 🆔\n"
+        "/weather <city> - Discover current weather in any city 🌦️\n"
+        "/wikipedia <query> - Dive into the vast sea of Wikipedia 📚\n"
+        "/speedtest - Measure your internet speed ⚡\n"
+        "/google <query> - Search Google for information 🔍\n"
+        "/meme - Unleash the power of humor with a random meme 😄\n"
+        "/anime <anime_name> - Embark on an anime adventure with details 🎌\n"
+        "/imdb <movie_title> - Explore movie details from IMDb 🎬\n"
+        )
     bot.send_animation(message.chat.id, gif, caption=help_text)
 
 
