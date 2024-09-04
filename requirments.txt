@@ -1,5 +1,4 @@
 googlesearch-python==1.0.1
-platform
 requests
 qrcode[pil]
 beautifulsoup4
